@@ -2,6 +2,8 @@
 
 A portable, progressive-indexing documentation scaffold for capturing project knowledge, rules, requirements, bug investigations, and operational lessons in a maintainable format.
 
+> [中文版本](README_zh.md)
+
 ## What This Is
 
 This template provides a directory structure and document conventions for building a project long-term memory that an AI assistant can navigate efficiently. It is not tied to any specific language, framework, or product.
