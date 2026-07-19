@@ -14,6 +14,7 @@
 - **[Skill Lookup Guide](05-reference/analysis-003-harmony-skills-lookup-guide.md)** - When a task needs framework or tool-specific guidance.
 - **[Shared Agent Workflow](agent-workflow.md)** - Shared lifecycle, evidence labels, output contract, stop conditions, and memory-writing workflow.
 - **[On-Demand Subagent Routing](subagent-routing.md)** - Generic task matrix and examples for selecting the smallest useful subagent set.
+- **[Agent Workflow Optimization Summary](05-reference/lessons-004-agent-workflow-optimization.md)** - De-identified rationale, protocol, routing, synchronization, and migration checklist.
 
 ## Read by Task
 
