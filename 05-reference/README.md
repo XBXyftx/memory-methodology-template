@@ -17,12 +17,15 @@
 | [lessons-001-network-recovery.md](lessons-001-network-recovery.md) | lesson | iterative bugfix lesson template |
 | [lessons-002-exception-isolation.md](lessons-002-exception-isolation.md) | lesson | exception isolation lesson template |
 | [lessons-003-bugfix-feature-methodology.md](lessons-003-bugfix-feature-methodology.md) | methodology | reusable bugfix and feature workflow |
+| [../agent-workflow.md](../agent-workflow.md) | workflow | shared Agent lifecycle, evidence labels, output contract, and stop conditions |
+| [../subagent-routing.md](../subagent-routing.md) | routing | generic on-demand subagent matrix and examples |
 
 ## Usage
 
 - Read the overview before editing.
 - Read the hotspot analysis before proposing a change.
 - Read the lessons document when you need process guidance.
+- Read the Agent workflow and routing documents when coordinating optional subagents or maintaining AI-client prompts.
 
 ## Maintenance
 

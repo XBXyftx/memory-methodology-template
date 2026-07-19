@@ -22,5 +22,7 @@
 | Global index | [`../MEMORY.md`](../MEMORY.md) |
 | AI handover | [`../AI-handover.md`](../AI-handover.md) |
 | Rules | [`../rules.md`](../rules.md) |
+| Shared Agent workflow | [`../agent-workflow.md`](../agent-workflow.md) |
+| Subagent routing | [`../subagent-routing.md`](../subagent-routing.md) |
 | Requirements | [`../02-requirements/`](../02-requirements/) |
 | Bug reports | [`../07-bug-reports/`](../07-bug-reports/) |

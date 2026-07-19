@@ -25,6 +25,7 @@
 | 16 | Clean logs before submission | Remove temporary diagnostics before handoff |
 | 17 | Consult skills when needed | Load the right domain guidance before editing |
 | 18 | Pre/post checklist | Self-check before and after changes |
+| 19 | On-demand subagents and shared protocol | Choose the smallest role set and use one evidence/output contract |
 
 ---
 
@@ -161,3 +162,14 @@ Ask:
 - Check boundary input validation.
 - Confirm the required verification method.
 - Clean temporary traces before archiving.
+
+## 19. On-Demand Subagents and Shared Protocol
+
+- Subagents are optional read-only context tools, not mandatory steps for every task.
+- Simple, explicit, single-file work should remain on the primary agent.
+- Select roles from [subagent-routing.md](subagent-routing.md); use [agent-workflow.md](agent-workflow.md) for lifecycle, evidence labels, output, and stop conditions.
+- Start independent roles in parallel when possible, stop when the question is answered, and add at most one follow-up batch unless deep review is requested.
+- The primary agent verifies important subagent claims before editing or recording them as facts.
+- Subagent prompts should receive a concrete question, scope, evidence, protected changes, and stop condition.
+- When multiple clients are supported, edit one prompt source and regenerate client-specific artifacts; do not maintain competing prompt bodies by hand.
+- A migration must not overwrite workspace bootstrap instructions or unrelated client configuration.

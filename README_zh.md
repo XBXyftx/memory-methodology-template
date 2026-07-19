@@ -14,6 +14,8 @@
 - **每类条目一个入口** — 需求和 Bug 各自有唯一入口文件，配套同名子目录存放证据。
 - **稳定规则与实时状态分离** — 通用的方法论和编写规则与临时交接快照分开维护。
 - **证据驱动** — 结论基于调查记录，不凭提交标签推断。
+- **Agent 按需使用** — sub agent 只回答明确问题，简单任务由主 Agent 直接处理。
+- **统一 Agent 协议** — 生命周期、证据标签、输出格式、停止条件和多客户端同步规则只定义一次。
 
 ## 目录结构
 
@@ -36,14 +38,18 @@
 | `rules.md` | 功能开发、Bug 修复、文档归档的必读规则 |
 | `document-authoring-rules.md` | 记忆文档的命名、拆分、索引、链接、归档和审查策略 |
 | `AI-handover.md` | 会话交接用的当前状态快照 |
+| `agent-workflow.md` | 主 Agent 与 sub agent 共用的生命周期和输出协议 |
+| `subagent-routing.md` | 通用的按需 sub agent 路由矩阵与示例 |
 
 ## 使用方式
 
 1. 将脚手架复制到你的项目工作区。
 2. 将每个 `<placeholder>` 替换为具体的非敏感内容。
-3. 创建或拆分文档时遵循 `document-authoring-rules.md` 中的规则。
-4. 保持根索引和分区 README 同步更新。
-5. 不要在此处存储密钥、私有路径或专有源码细节。
+3. 编排 sub agent 或编写长期记忆文档时使用 `agent-workflow.md`。
+4. 按 `subagent-routing.md` 选择最小的 sub agent 组合。
+5. 创建、移动、拆分、归档或实质更新长期记忆文档时，再读取 `document-authoring-rules.md`。
+6. 保持根索引和分区 README 同步更新。
+7. 不要在此处存储密钥、私有路径或专有源码细节。
 
 ## 许可证
 

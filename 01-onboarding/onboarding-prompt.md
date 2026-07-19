@@ -14,9 +14,10 @@ Use this prompt when a new session needs a concise handoff.
 
 1. Read the root [MEMORY.md](../MEMORY.md).
 2. Read [rules.md](../rules.md).
-3. Read [document-authoring-rules.md](../document-authoring-rules.md).
-4. Read the relevant requirements or bug index.
-5. Read the closest reference notes before proposing changes.
+3. Read [agent-workflow.md](../agent-workflow.md) and [subagent-routing.md](../subagent-routing.md) only when subagents or workflow maintenance are in scope.
+4. Read [document-authoring-rules.md](../document-authoring-rules.md) only when memory documents will be created, moved, split, archived, or materially updated.
+5. Read the relevant requirements or bug index.
+6. Read the closest reference notes before proposing changes.
 
 ## Working Rules
 
@@ -24,6 +25,7 @@ Use this prompt when a new session needs a concise handoff.
 - Reuse existing flows before inventing new ones.
 - Treat external data as untrusted.
 - Record evidence before conclusions.
+- Do not start a default subagent bundle; choose the smallest role set justified by the task.
 - Do not store real secrets, private paths, or proprietary source details here.
 
 ## Risk Areas

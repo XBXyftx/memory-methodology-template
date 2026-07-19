@@ -14,6 +14,8 @@ This template provides a directory structure and document conventions for buildi
 - **One canonical entry per item** — requirements and bugs each have a single entry point with a matching subdirectory for evidence.
 - **Stable rules vs. live state** — durable methodology and writing rules are kept separate from ephemeral handoff notes.
 - **Evidence-driven** — conclusions are backed by investigation notes, not inferred from commit labels.
+- **On-demand agents** — optional subagents answer focused questions; simple tasks stay on the primary agent.
+- **Shared agent contract** — lifecycle, evidence labels, output format, stop conditions, and multi-client synchronization are defined once.
 
 ## Directory Map
 
@@ -36,14 +38,18 @@ This template provides a directory structure and document conventions for buildi
 | `rules.md` | Mandatory rules for feature work, bug repair, and documentation |
 | `document-authoring-rules.md` | Naming, indexing, link, archive, and review policies for the memory tree |
 | `AI-handover.md` | Current-status snapshot for session handoff |
+| `agent-workflow.md` | Shared primary-agent/subagent lifecycle and output contract |
+| `subagent-routing.md` | Generic on-demand subagent routing matrix and examples |
 
 ## How to Use
 
 1. Copy the scaffold into your project workspace.
 2. Replace every `<placeholder>` with concrete, non-sensitive content.
-3. Follow the rules in `document-authoring-rules.md` when creating or splitting documents.
-4. Keep the root index and section READMEs up to date.
-5. Do not store secrets, private paths, or proprietary source details here.
+3. Use `agent-workflow.md` when coordinating subagents or writing memory documents.
+4. Use `subagent-routing.md` to select the smallest useful subagent set.
+5. Read `document-authoring-rules.md` when creating, moving, splitting, archiving, or materially updating memory documents.
+6. Keep the root index and section READMEs up to date.
+7. Do not store secrets, private paths, or proprietary source details here.
 
 ## License
 

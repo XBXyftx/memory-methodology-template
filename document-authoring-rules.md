@@ -2,6 +2,7 @@
 
 > This file defines the writing and indexing policy for the portable-long-term-memory tree.
 > It is separate from `rules.md`, which covers broader work behavior.
+> The shared Agent lifecycle and evidence/output contract are defined in [agent-workflow.md](agent-workflow.md).
 
 ## Scope
 
@@ -36,9 +37,11 @@ These rules apply to every markdown document under `portable-long-term-memory/`.
 - Keep root indexes short.
 - Promote durable generalizations into reference or methodology files.
 - Keep one-off cases in requirement or bug folders.
+- Keep Agent orchestration rules in `agent-workflow.md` and `subagent-routing.md`, not duplicated across every entry document.
 
 ## Review Policy
 
 - Before finishing a documentation pass, check for broken links, duplicate entries, and stale placeholders.
 - Use factual status words only.
+- Distinguish source facts, historical conclusions, user/test feedback, inferences, unconfirmed items, and verified results.
 - For this tree, `REQ-*` and `BUG-*` entries use a single canonical entry file plus a same-ID child folder when needed.
